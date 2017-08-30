@@ -4,7 +4,7 @@
   "description": "Gilded Rose Refactoring Kata in NodeJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha spec/*.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,12 @@
   "homepage": "https://github.com/albert-gonzalez/gilded-rose-javascript#readme",
   "devDependencies": {
     "chai": "^4.1.1",
+    "eslint": "^4.5.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
     "mocha": "^3.5.0"
   }
 }

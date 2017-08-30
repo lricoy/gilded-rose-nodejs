@@ -1,6 +1,24 @@
+# Gilded Rose Refactoring Kata in NodeJS
+
+NodeJs Version of Gilded Rose Refactoring Kata, forked from guyroyse's repository:
+
+  https://github.com/guyroyse/gilded-rose-javascript
+
+## Install
+
 If you want to get cracking on the JavaScript source then do this:
 
-    git clone git@github.com:guyroyse/gilded-rose-javascript.git
+Clone the repo with ```git clone https://github.com/albert-gonzalez/gilded-rose-javascript.git```
+
+Run ```npm install```
+
+## Usage
+
+Run the tests with ```npm test```
+
+You can add your tests into the spec folder
+
+## Instructions
 
 Hi and welcome to team Gilded Rose.
 
@@ -16,7 +34,7 @@ new category of items.
 
 First an introduction to our system:
 
-  - All items have a *sell_in* value which denotes the number of days we have to
+  - All items have a *sellIn* value which denotes the number of days we have to
     sell the item
 
   - All items have a *quality* value which denotes how valuable the item is
@@ -25,7 +43,7 @@ First an introduction to our system:
 
 Pretty simple, right? Well this is where it gets interesting:
 
-  - Once the *sell_in* days is less then zero, *quality* degrades twice as fast
+  - Once the *sellIn* days is less then zero, *quality* degrades twice as fast
 
   - The *quality* of an item is never negative
 
@@ -36,7 +54,7 @@ Pretty simple, right? Well this is where it gets interesting:
   - "Sulfuras", being a legendary item, never has to be sold nor does it
     decrease in *quality*
 
-  - "Backstage passes", like aged brie, increases in *quality* as it's *sell_in*
+  - "Backstage passes", like aged brie, increases in *quality* as it's *sellIn*
     value decreases; *quality* increases by 2 when there are 10 days or less
     and by 3 when there are 5 days or less but *quality* drops to 0 after the
     concert
@@ -48,7 +66,7 @@ to our system:
 
 Feel free to make any changes to the *update_quality* method and add any new
 code as long as everything still works correctly. However, do not alter the
-*Item* class or *items* property as those belong to the goblin in the corner
+*Item* class or *items* property (in programExample) as those belong to the goblin in the corner
 who will insta-rage and one-shot you as he doesn't believe in shared code
 ownership.
 
