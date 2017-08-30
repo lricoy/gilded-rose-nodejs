@@ -1,0 +1,30 @@
+{
+  "name": "gilded-rose-node",
+  "version": "1.0.0",
+  "description": "Gilded Rose Refactoring Kata in NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albert-gonzalez/gilded-rose-javascript.git"
+  },
+  "keywords": [
+    "gilded",
+    "rose",
+    "refactoring",
+    "kata",
+    "nodejs"
+  ],
+  "author": "Albert Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albert-gonzalez/gilded-rose-javascript/issues"
+  },
+  "homepage": "https://github.com/albert-gonzalez/gilded-rose-javascript#readme",
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  }
+}
