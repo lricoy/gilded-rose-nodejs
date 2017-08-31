@@ -8,7 +8,7 @@ Node.js Version of Gilded Rose Refactoring Kata, forked from guyroyse's reposito
 
 If you want to get cracking on the JavaScript source then do this:
 
-Clone the repo with ```git clone https://github.com/albert-gonzalez/gilded-rose-javascript.git```
+Clone the repo with ```git clone https://github.com/albert-gonzalez/gilded-rose-nodejs.git```
 
 Run ```npm install```
 
