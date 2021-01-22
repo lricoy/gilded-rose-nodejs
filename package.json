@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Gilded Rose Refactoring Kata in NodeJS",
   "main": "index.js",
+  "engines" : { "node" : ">=14" },
   "scripts": {
     "test": "mocha spec/*.js"
   },
